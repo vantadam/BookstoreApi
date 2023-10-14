@@ -2,8 +2,8 @@ import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 
-import { BookController } from './../src/book/entities/book.controller';
-import { BookService } from './../src/book/entities/book.service';
+import { BookController } from './book/book.controller';
+import { BookService } from './book/book.service';
 
 
 @Module({
